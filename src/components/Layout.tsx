@@ -86,12 +86,14 @@ export const Layout = ({ children }: { children: React.ReactNode }) => {
             <div className="col-span-12 md:col-span-4">
               <p className="font-serif text-lg font-medium">Laura Heshusius G.</p>
               <p className="mt-2 text-sm text-muted-foreground">Strategic Designer</p>
+              <a href="tel:+393515869476" className="mt-2 block text-sm text-muted-foreground link-underline">+39 3515869476</a>
             </div>
             <div className="col-span-12 md:col-span-4">
               <p className="caps-label mb-4">Connect</p>
               <div className="flex flex-col gap-2 text-sm text-muted-foreground">
                 <a href="https://www.linkedin.com/in/laura-heshusius-g-023566140/" target="_blank" rel="noopener noreferrer" className="link-underline">LinkedIn</a>
                 <a href="mailto:lauraheshusius6@gmail.com" className="link-underline">Email</a>
+                <a href="https://wa.me/573213099169" target="_blank" rel="noopener noreferrer" className="link-underline">WhatsApp</a>
               </div>
             </div>
             <div className="col-span-12 md:col-span-4 text-sm text-muted-foreground">
@@ -99,6 +101,7 @@ export const Layout = ({ children }: { children: React.ReactNode }) => {
               <a href="https://www.polidesign.net/en/" target="_blank" rel="noopener noreferrer" className="link-underline">
                 POLI.Design — Politecnico di Milano
               </a>
+              <p className="mt-2 font-semibold text-foreground">Milano, Italy</p>
             </div>
           </div>
         </div>
