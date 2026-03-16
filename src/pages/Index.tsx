@@ -52,6 +52,15 @@ const Index = () => {
         </div>
       </Section>
 
+      {/* Full-width image */}
+      <div className="max-w-7xl mx-auto px-6 pb-16 md:pb-24">
+        <div className="aspect-[21/9] bg-muted border border-border flex items-center justify-center">
+          <span className="font-mono text-[10px] uppercase tracking-widest text-muted-foreground/50">
+            [ Portrait / Studio Photo ]
+          </span>
+        </div>
+      </div>
+
       {/* What I Do */}
       <Section>
         <SectionTitle>What I Do</SectionTitle>
