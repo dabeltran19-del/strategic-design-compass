@@ -20,33 +20,35 @@ const ImpactIndustries = () => (
               category: "GovTech",
               title: "Judicial Innovation — LAB ENJ",
               impacts: [
-                { metric: "200+ participants", description: "engaged in national hackathon" },
-                { metric: "40% reduction", description: "in citizen friction points" },
-                { metric: "5 courts", description: "adopted our innovation framework" },
+                { metric: "Institutional Adoption:", description: "The Judicial Branch formally adopted the winning projects to carry them out, a result of the rigorous mentoring and viability checks performed during the process." },
+                { metric: "Institutional Transformation:", description: "Successfully positioned Design Thinking as a formal problem-solving framework within the Judiciary." },
+                { metric: "Cultural Shift:", description: "Catalyzed a fundamental mindset shift by prioritizing agility and user-centricity in the design of judicial services." },
+                { metric: "Evidence-Based Strategy:", description: "Replaced abstract assumptions with a culture of prototyping and validation, ensuring that new services were tested with real feedback before implementation." },
               ],
             },
             {
               category: "Consumer Electronics",
               title: "Samsung Electronics — Organizational Alignment",
               impacts: [
-                { metric: "Cross-functional alignment", description: "across Product, Legal, and Operations" },
-                { metric: "Streamlined delivery", description: "through collaborative strategy workshops" },
+                { metric: "Increased Adoption: ", description: "The redesign turned a mandatory obligation into a high-engagement service, significantly improving how employees interacted with corporate guidelines." },
+                { metric: "Unified Workflow:", description: "By aligning Legal with the rest of the company, with the team we eliminated departmental fragmentation, creating a more efficient and collaborative environment for managing the program." },
+                { metric: "Scalable Framework::", description: "We delivered a structured model for internal service design that the company could later apply to other complex corporate initiatives." },
               ],
             },
             {
               category: "FinTech",
               title: "DolarApp — Go-to-Market",
               impacts: [
-                { metric: "Market entry strategy", description: "for cross-border payment platform" },
-                { metric: "User acquisition framework", description: "grounded in behavioral research" },
+                { metric: "Robust Strategic Roadmap:", description: "Allowed the fintech to launch with a clear understanding of the Colombian user’s mental models" },
+                { metric: "Structured Onboarding Process:", description: "Both legally sound and culturally resonant." },
               ],
             },
             {
               category: "InsurTech",
               title: "Seguros Mundial — Trust-based Design",
               impacts: [
-                { metric: "Trust-building framework", description: "for digital insurance adoption" },
-                { metric: "Conversion uplift", description: "through transparency-first design" },
+                { metric: "Enhanced Brand Trust:", description: "By improving clarity and transparency, we strengthened the bond between the brand and its clients." },
+                { metric: "Sales Growth through Confidence:", description: "Significant improvement in sales, driven by a redesigned experience that prioritized user confidence and a more human, realistic approach to insurance." },
               ],
             },
           ].map((project, i) => (
