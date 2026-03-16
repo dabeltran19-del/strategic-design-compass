@@ -6,7 +6,7 @@ import ArtifactPlaceholder from "@/components/ArtifactPlaceholder";
 
 const LabEnjWorkshops = () => (
   <Layout>
-    <PageHero title="Judicial Co-creation Workshops" subtitle="LAB ENJ · Co-design" />
+    <PageHero title="Judicial Co-creation & Training" subtitle="LAB ENJ · Co-design" />
     <ProjectSubNav />
     <Section>
       <div className="grid grid-cols-12 gap-6">

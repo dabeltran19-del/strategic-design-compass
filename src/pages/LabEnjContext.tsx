@@ -6,7 +6,7 @@ import ArtifactPlaceholder from "@/components/ArtifactPlaceholder";
 
 const LabEnjContext = () => (
   <Layout>
-    <PageHero title="LAB ENJ — Context & Role" subtitle="Judicial Innovation · Brazil" />
+    <PageHero title="LAB ENJ — Context & Role" subtitle="Judicial Innovation · Dominican Republic" />
     <ProjectSubNav />
     <Section>
       <div className="grid grid-cols-12 gap-6">
@@ -14,7 +14,7 @@ const LabEnjContext = () => (
           <SectionTitle index="01">Context</SectionTitle>
           <div className="space-y-6 text-lg text-muted-foreground leading-relaxed max-w-[65ch]">
             <p>
-              LAB ENJ is an innovation lab within Brazil's National School of Judges (ENJ), dedicated to modernizing the judiciary through design thinking and co-creation. We were tasked with transforming how judicial services are conceived, delivered, and experienced by citizens.
+              We designed and led LAB ENJ, a pioneering Justice Innovation Lab in the Dominican Republic. Created as a strategic collaboration with the National School of the Judiciary (ENJ), the lab was built to modernize the Judicial Branch by introducing agile methodologies and human-centered design into a traditionally rigid institution.
             </p>
             <p>
               The challenge was immense: a deeply hierarchical institution with complex regulatory requirements, serving millions of citizens who often find the judicial system opaque and inaccessible.
@@ -28,10 +28,7 @@ const LabEnjContext = () => (
             <SectionTitle index="02">My Role</SectionTitle>
             <div className="space-y-6 text-lg text-muted-foreground leading-relaxed max-w-[65ch]">
               <p>
-                As Strategic Designer, we led the end-to-end transformation process — from stakeholder mapping and systems analysis to facilitating co-design workshops with judges, clerks, and citizens.
-              </p>
-              <p>
-                We defined the innovation methodology, designed the workshop frameworks, and coordinated the national hackathon that brought together over 200 participants from across Brazil.
+                As part of the founding leadership team, I co-designed the entire innovation strategy. I acted as a bridge between high-level judicial officials and the citizens’ needs, ensuring that innovation was both structurally sound and impactful.
               </p>
             </div>
           </div>
