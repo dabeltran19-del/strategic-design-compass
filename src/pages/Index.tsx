@@ -118,6 +118,7 @@ const Index = () => {
             category="Judicial Innovation"
             description="We designed and led LAB ENJ, a pioneering Justice Innovation Lab in the Dominican Republic. Created as a strategic collaboration with the National School of the Judiciary (ENJ), the lab was built to modernize the Judicial Branch by introducing agile methodologies and human-centered design into a traditionally rigid institution.  "
             link="/lab-enj/context"
+            image="/DDM_5453.jpeg"
           />
           <ProjectCard
             title="Samsung Electronics"
@@ -130,12 +131,14 @@ const Index = () => {
             category="Co-design & Workshops"
             description='I have experience enabling teams to navigate complexity by "managing the room", leveraging expert facilitation, co-design, and systems thinking to guide stakeholders and multidisciplinary experts through the design process. By extracting collective intelligence and utilizing visual thinking, I navigate resistance to change and ensure that every participant is aligned toward shared strategic goals and actionable outcomes. My approach combines the rigor of strategic alignment with the speed of agile delivery, transforming abstract challenges into tangible, high-impact solutions.'
             link="/facilitation"
+            image="/DDM_5458.jpeg"
           />
           <ProjectCard
             title="Business Design"
             category="Growth Strategy"
             description='I applied Service Design methodologies to solve growth-related challenges, specifically focusing on reducing entry barriers in complex financial and insurance products. My work aligned user needs with business KPIs to drive conversion and trust.'
             link="/business-design"
+            image="/DDM_5475.jpeg"
           />
         </div>
       </Section>
