@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import Layout from "@/components/Layout";
 import ProjectSubNav from "@/components/ProjectSubNav";
-import { PageHero } from "@/components/Section";
 import Section, { SectionTitle } from "@/components/Section";
 import ArtifactPlaceholder from "@/components/ArtifactPlaceholder";
 
@@ -19,7 +18,7 @@ const LabEnjContext = () => {
   return (
     <Layout>
       {/* Hero with scroll-fading background */}
-      <section className="relative py-[12vh] md:py-[18vh] overflow-hidden">
+      <section className="relative py-[8vh] md:py-[12vh] overflow-hidden">
         {/* Scroll-fading background image */}
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat pointer-events-none"
@@ -30,8 +29,11 @@ const LabEnjContext = () => {
             WebkitMaskImage: "linear-gradient(to bottom, black 40%, transparent 100%)",
           }}
         />
-        <div className="relative">
-          <PageHero title="LAB ENJ — Context & Role" subtitle="Judicial Innovation · Dominican Republic" />
+        <div className="relative max-w-7xl mx-auto px-6">
+          <span className="caps-label block mb-6">Judicial Innovation · Dominican Republic</span>
+          <h1 className="font-serif text-[clamp(2rem,6vw,4rem)] font-medium leading-[1.05] tracking-tight max-w-5xl">
+            LAB ENJ — Context & Role
+          </h1>
         </div>
       </section>
       
