@@ -30,7 +30,7 @@ const Index = () => {
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat pointer-events-none"
           style={{
-            backgroundImage: "url('/headhsot.jpg')",
+            backgroundImage: "url('/hero_background.png')",
             opacity: bgOpacity,
             maskImage: "linear-gradient(to bottom, black 40%, transparent 100%)",
             WebkitMaskImage: "linear-gradient(to bottom, black 40%, transparent 100%)",
