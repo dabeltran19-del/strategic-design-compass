@@ -15,10 +15,10 @@ const LabEnjHackathon = () => (
           <SectionTitle index="03">The Hackathon</SectionTitle>
           <div className="space-y-6 text-lg text-muted-foreground leading-relaxed max-w-[65ch]">
             <p>
-              We designed and orchestrated a national-scale hackathon that challenged participants to reimagine how citizens interact with the judicial system. Over 200 participants from 15 states competed to create solutions that would make justice more accessible.
+              To bring fresh perspectives into the system, we organized and led the first National Judicial Hackathons (2021 and 2022). The initiative consisted of guiding multidisciplinary teams of students, supported by judicial officials and guided by our mentorship team.  
             </p>
             <p>
-              The hackathon was structured around real pain points identified during our co-creation workshops, ensuring that innovation was grounded in genuine user needs rather than speculative technology.
+              Teams were provided with strategic briefs on real judicial bottlenecks to solve during an intensive 8-week period. 
             </p>
           </div>
           <div className="mt-12">
@@ -28,11 +28,9 @@ const LabEnjHackathon = () => (
             <SectionTitle>Strategic Impact</SectionTitle>
             <ImpactList
               items={[
-                { metric: "200+", description: "participants from 15 Brazilian states" },
-                { metric: "32", description: "solution prototypes developed in 48 hours" },
-                { metric: "3 solutions", description: "adopted into the national judicial innovation roadmap" },
-                { metric: "40%", description: "reduction in identified citizen friction points" },
-                { metric: "5 state courts", description: "now using our replicable innovation framework" },
+                { metric: "5", description: "Major Universities" },
+                { metric: "60+", description: "Students from 5 different programs" },
+                { metric: "30+", description: "Judicial branch officials" },
               ]}
             />
           </div>
