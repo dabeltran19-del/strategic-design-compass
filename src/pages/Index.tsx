@@ -46,7 +46,7 @@ const Index = () => {
             </div>
             {/* Signature placeholder */}
             <div className="mt-12 text-muted-foreground/30 font-serif italic text-2xl">
-              Laura
+              Strategic Designer & Innovation Consultant
             </div>
           </div>
         </div>
@@ -89,25 +89,25 @@ const Index = () => {
           <ProjectCard
             title="LAB ENJ"
             category="Judicial Innovation"
-            description="Transforming Brazil's judiciary through co-design, open innovation, and systems thinking."
+            description="We designed and led LAB ENJ, a pioneering Justice Innovation Lab in the Dominican Republic. Created as a strategic collaboration with the National School of the Judiciary (ENJ), the lab was built to modernize the Judicial Branch by introducing agile methodologies and human-centered design into a traditionally rigid institution.  "
             link="/lab-enj/context"
           />
           <ProjectCard
             title="Samsung Electronics"
             category="Organizational Alignment"
-            description="Aligning cross-functional teams to deliver seamless product experiences."
+            description="The organization sought to redesign its internal compliance program to ensure authentic adoption across all business units. The existing framework was perceived as a rigid, mandatory burden, creating a significant disconnect between legal requirements and the employees' daily reality. Our goal was to transform this static protocol into a human-centered service that felt integrated rather than imposed."
             link="/samsung"
           />
           <ProjectCard
             title="Strategic Facilitation"
             category="Co-design & Workshops"
-            description="Orchestrating complex stakeholder alignment through expert facilitation methods."
+            description='I have experience enabling teams to navigate complexity by "managing the room", leveraging expert facilitation, co-design, and systems thinking to guide stakeholders and multidisciplinary experts through the design process. By extracting collective intelligence and utilizing visual thinking, I navigate resistance to change and ensure that every participant is aligned toward shared strategic goals and actionable outcomes. My approach combines the rigor of strategic alignment with the speed of agile delivery, transforming abstract challenges into tangible, high-impact solutions.'
             link="/facilitation"
           />
           <ProjectCard
             title="Business Design"
             category="Growth Strategy"
-            description="Go-to-market strategy and trust-based design for FinTech and InsurTech."
+            description='I applied Service Design methodologies to solve growth-related challenges, specifically focusing on reducing entry barriers in complex financial and insurance products. My work aligned user needs with business KPIs to drive conversion and trust.'
             link="/business-design"
           />
         </div>
