@@ -27,9 +27,14 @@ const Index = () => {
 
       {/* Cover Letter */}
       <Section>
-        <div className="grid grid-cols-12 gap-6">
+        <SectionTitle>About</SectionTitle>
+        <div className="grid grid-cols-12 gap-6 md:gap-12">
           <div className="col-span-12 md:col-span-4">
-            <SectionTitle>About</SectionTitle>
+            <div className="w-full max-w-[800px] aspect-square bg-muted border border-border flex items-center justify-center">
+              <span className="font-mono text-[10px] uppercase tracking-widest text-muted-foreground/50">
+                [ Portrait 800×800 ]
+              </span>
+            </div>
           </div>
           <div className="col-span-12 md:col-span-8">
             <h2 className="font-serif text-3xl font-medium mb-8">I'm Laura Heshusius</h2>
@@ -44,7 +49,6 @@ const Index = () => {
                 Currently, I am expanding my skills at POLI.Design — Politecnico di Milano, focusing on building new businesses and strategies through design.
               </p>
             </div>
-            {/* Signature placeholder */}
             <div className="mt-12 text-muted-foreground/30 font-serif italic text-2xl">
               Strategic Designer & Innovation Consultant
             </div>
