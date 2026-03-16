@@ -1,14 +1,42 @@
+import { useEffect, useState } from "react";
 import Layout from "@/components/Layout";
 import ProjectSubNav from "@/components/ProjectSubNav";
 import { PageHero } from "@/components/Section";
 import Section, { SectionTitle } from "@/components/Section";
 import ArtifactPlaceholder from "@/components/ArtifactPlaceholder";
 
-const LabEnjContext = () => (
-  <Layout>
-    <PageHero title="LAB ENJ — Context & Role" subtitle="Judicial Innovation · Dominican Republic" />
-    <ProjectSubNav />
-    <Section>
+const LabEnjContext = () => {
+  const [scrollY, setScrollY] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => setScrollY(window.scrollY);
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  const bgOpacity = Math.max(0, 0.13 - scrollY / 2000);
+
+  return (
+    <Layout>
+      {/* Hero with scroll-fading background */}
+      <section className="relative py-[12vh] md:py-[18vh] overflow-hidden">
+        {/* Scroll-fading background image */}
+        <div
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat pointer-events-none"
+          style={{
+            backgroundImage: "url('/LabENJContext_Background.jpeg')",
+            opacity: bgOpacity,
+            maskImage: "linear-gradient(to bottom, black 40%, transparent 100%)",
+            WebkitMaskImage: "linear-gradient(to bottom, black 40%, transparent 100%)",
+          }}
+        />
+        <div className="relative">
+          <PageHero title="LAB ENJ — Context & Role" subtitle="Judicial Innovation · Dominican Republic" />
+        </div>
+      </section>
+      
+      <ProjectSubNav />
+      <Section>
       <div className="grid grid-cols-12 gap-6">
         <div className="col-span-12 md:col-span-8 md:col-start-5">
           <SectionTitle index="01">Context</SectionTitle>
@@ -38,7 +66,8 @@ const LabEnjContext = () => (
         </div>
       </div>
     </Section>
-  </Layout>
-);
+    </Layout>
+  );
+};
 
 export default LabEnjContext;
