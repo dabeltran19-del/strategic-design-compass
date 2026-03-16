@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { useEffect, useState } from "react";
 import Layout from "@/components/Layout";
 import ProjectCard from "@/components/ProjectCard";
 import Section, { SectionTitle } from "@/components/Section";
@@ -11,11 +12,31 @@ const fadeInUp = {
 };
 
 const Index = () => {
+  const [scrollY, setScrollY] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => setScrollY(window.scrollY);
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  const bgOpacity = Math.max(0, 0.13 - scrollY / 2000);
+
   return (
     <Layout>
       {/* Hero */}
-      <section className="py-[20vh] md:py-[30vh]">
-        <div className="max-w-7xl mx-auto px-6 grid grid-cols-12 gap-6">
+      <section className="relative py-[12vh] md:py-[18vh] overflow-hidden">
+        {/* Scroll-fading background image */}
+        <div
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat pointer-events-none"
+          style={{
+            backgroundImage: "url('/headhsot.jpg')",
+            opacity: bgOpacity,
+            maskImage: "linear-gradient(to bottom, black 40%, transparent 100%)",
+            WebkitMaskImage: "linear-gradient(to bottom, black 40%, transparent 100%)",
+          }}
+        />
+        <div className="relative max-w-7xl mx-auto px-6 grid grid-cols-12 gap-6">
           <motion.div {...fadeInUp} className="col-span-12 md:col-span-10">
             <span className="caps-label block mb-8">Strategic Design Portfolio</span>
             <h1 className="font-serif text-[clamp(2.5rem,8vw,5rem)] font-medium leading-[1.05] tracking-tight">
@@ -30,10 +51,12 @@ const Index = () => {
         <SectionTitle>About</SectionTitle>
         <div className="grid grid-cols-12 gap-6 md:gap-12">
           <div className="col-span-12 md:col-span-4">
-            <div className="w-full max-w-[800px] aspect-square bg-muted border border-border flex items-center justify-center">
-              <span className="font-mono text-[10px] uppercase tracking-widest text-muted-foreground/50">
-                [ Portrait 800×800 ]
-              </span>
+            <div className="w-full max-w-[800px] aspect-square overflow-hidden">
+              <img
+                src="/headhsot.jpg"
+                alt="Laura Heshusius"
+                className="w-full h-full object-cover object-top"
+              />
             </div>
           </div>
           <div className="col-span-12 md:col-span-8">
