@@ -32,7 +32,7 @@ const Index = () => {
             <SectionTitle>About</SectionTitle>
           </div>
           <div className="col-span-12 md:col-span-8">
-            <h2 className="font-serif text-3xl font-medium mb-8">I'm Laura</h2>
+            <h2 className="font-serif text-3xl font-medium mb-8">I'm Laura Heshusius</h2>
             <div className="space-y-6 text-lg text-muted-foreground leading-relaxed max-w-[65ch]">
               <p>
                 I am a Strategic Designer dedicated to leading innovation within complex ecosystems. I focus on connecting business objectives with human needs to design practical, high-impact strategies.
