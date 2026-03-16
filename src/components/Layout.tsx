@@ -21,7 +21,7 @@ export const Layout = ({ children }: { children: React.ReactNode }) => {
       <nav className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
         <div className="max-w-7xl mx-auto px-6 flex items-center justify-between h-14">
           <Link to="/" className="font-serif text-lg font-medium tracking-tight">
-            Laura
+            Laura Heshusius
           </Link>
           {/* Desktop */}
           <div className="hidden md:flex items-center gap-8">
@@ -84,19 +84,21 @@ export const Layout = ({ children }: { children: React.ReactNode }) => {
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid grid-cols-12 gap-6">
             <div className="col-span-12 md:col-span-4">
-              <p className="font-serif text-lg font-medium">Laura</p>
+              <p className="font-serif text-lg font-medium">Laura Heshusius G.</p>
               <p className="mt-2 text-sm text-muted-foreground">Strategic Designer</p>
             </div>
             <div className="col-span-12 md:col-span-4">
               <p className="caps-label mb-4">Connect</p>
               <div className="flex flex-col gap-2 text-sm text-muted-foreground">
-                <span className="link-underline cursor-pointer">LinkedIn</span>
-                <span className="link-underline cursor-pointer">Email</span>
+                <a href="https://www.linkedin.com/in/laura-heshusius-g-023566140/" target="_blank" rel="noopener noreferrer" className="link-underline">LinkedIn</a>
+                <a href="mailto:lauraheshusius6@gmail.com" className="link-underline">Email</a>
               </div>
             </div>
             <div className="col-span-12 md:col-span-4 text-sm text-muted-foreground">
               <p className="caps-label mb-4">Currently</p>
-              <p>POLI.Design — Politecnico di Milano</p>
+              <a href="https://www.polidesign.net/en/" target="_blank" rel="noopener noreferrer" className="link-underline">
+                POLI.Design — Politecnico di Milano
+              </a>
             </div>
           </div>
         </div>
