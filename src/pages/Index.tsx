@@ -112,7 +112,7 @@ const Index = () => {
       {/* Key Projects */}
       <Section>
         <SectionTitle>Key Projects</SectionTitle>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-stretch">
           <ProjectCard
             title="LAB ENJ"
             category="Judicial Innovation"

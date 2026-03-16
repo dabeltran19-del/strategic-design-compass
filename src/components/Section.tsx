@@ -13,7 +13,7 @@ const fadeInUp = {
 };
 
 export const Section = ({ children, className = "" }: SectionProps) => (
-  <motion.section {...fadeInUp} className={`py-16 md:py-24 ${className}`}>
+  <motion.section {...fadeInUp} className={`py-8 md:py-12 ${className}`}>
     <div className="max-w-7xl mx-auto px-6">
       {children}
     </div>
