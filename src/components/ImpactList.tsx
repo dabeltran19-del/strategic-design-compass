@@ -1,5 +1,12 @@
+interface ImpactItem {
+  metric: string;
+  description: string;
+  inlineMetric?: string;
+  descriptionAfter?: string;
+}
+
 interface ImpactListProps {
-  items: { metric: string; description: string }[];
+  items: ImpactItem[];
 }
 
 const ImpactList = ({ items }: ImpactListProps) => (
@@ -9,6 +16,12 @@ const ImpactList = ({ items }: ImpactListProps) => (
         <p className="text-lg">
           <span className="text-accent font-medium">{item.metric}</span>{" "}
           <span className="text-muted-foreground">{item.description}</span>
+          {item.inlineMetric && (
+            <>
+              {" "}<span className="text-accent font-medium">{item.inlineMetric}</span>{" "}
+              <span className="text-muted-foreground">{item.descriptionAfter}</span>
+            </>
+          )}
         </p>
       </li>
     ))}
