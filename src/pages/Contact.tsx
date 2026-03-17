@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Linkedin } from "lucide-react";
 import Layout from "@/components/Layout";
 import Section from "@/components/Section";
 
@@ -58,7 +59,8 @@ const Contact = () => (
 
           <motion.div {...fadeInUp} className="border-t border-border pt-6">
             <p className="caps-label mb-3">LinkedIn</p>
-            <a href="https://www.linkedin.com/in/laura-heshusius-g-023566140/" target="_blank" rel="noopener noreferrer" className="font-serif text-xl font-medium link-underline">
+            <a href="https://www.linkedin.com/in/laura-heshusius-g-023566140/" target="_blank" rel="noopener noreferrer" className="font-serif text-xl font-medium link-underline inline-flex items-center gap-2">
+              <Linkedin size={20} strokeWidth={1.5} />
               Laura Heshusius G.
             </a>
           </motion.div>
@@ -77,6 +79,17 @@ const Contact = () => (
 
         </div>
       </div>
+
+      {/* GDPR Notice */}
+      <motion.div {...fadeInUp} className="mt-20 border-t border-border pt-8 flex justify-end">
+        <div className="max-w-[50ch] space-y-2 text-xs text-muted-foreground/60 leading-relaxed text-right">
+          <p className="caps-label mb-2">Data Protection Notice</p>
+          <p>
+            Contact details are shared voluntarily for professional communication (GDPR Reg. EU 2016/679). Any data you include in your message will be used solely to respond to your enquiry and will not be stored or shared.
+          </p>
+        </div>
+      </motion.div>
+
     </Section>
   </Layout>
 );
