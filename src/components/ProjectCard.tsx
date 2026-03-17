@@ -19,13 +19,15 @@ const ProjectCard = ({ title, category, description, link, image }: ProjectCardP
       <span className="caps-label">{category}</span>
       <h3 className="mt-4 font-serif text-3xl font-medium">{title}</h3>
       <p className="mt-4 max-w-md text-muted-foreground text-lg">{description}</p>
-      <div className="mt-auto pt-12 aspect-video bg-muted border border-border overflow-hidden flex items-center justify-center">
-        {image ? (
-          <img src={image} alt={title} className="w-full h-full object-cover" />
-        ) : (
+      {image ? (
+        <div className="mt-auto aspect-video overflow-hidden">
+          <img src={image} alt={title} className="w-full h-full object-cover object-center block" />
+        </div>
+      ) : (
+        <div className="mt-auto pt-12 aspect-video bg-muted border border-border flex items-center justify-center">
           <span className="font-mono text-[10px] text-muted-foreground/50">[ ARTIFACT: {title.toUpperCase()} ]</span>
-        )}
-      </div>
+        </div>
+      )}
     </motion.div>
   </Link>
 );
