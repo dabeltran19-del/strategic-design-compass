@@ -14,6 +14,7 @@ import SamsungChallenge from "./pages/SamsungChallenge";
 import SamsungProcess from "./pages/SamsungProcess";
 import BusinessDesign from "./pages/BusinessDesign";
 import Methodology from "./pages/Methodology";
+import Contact from "./pages/Contact";
 
 const queryClient = new QueryClient();
 
@@ -34,6 +35,7 @@ const App = () => (
           <Route path="/samsung/process" element={<SamsungProcess />} />
           <Route path="/business-design" element={<BusinessDesign />} />
           <Route path="/methodology" element={<Methodology />} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
