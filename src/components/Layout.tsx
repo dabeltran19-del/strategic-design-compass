@@ -4,12 +4,12 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const navItems = [
   { label: "Home", path: "/" },
-  { label: "LAB ENJ", path: "/lab-enj/context" },
   { label: "Facilitation", path: "/facilitation" },
   { label: "Impact", path: "/impact" },
+  { label: "Methodology", path: "/methodology" },
+  { label: "LAB ENJ", path: "/lab-enj/context" },
   { label: "Samsung", path: "/samsung" },
   { label: "Business Design", path: "/business-design" },
-  { label: "Methodology", path: "/methodology" },
 ];
 
 export const Layout = ({ children }: { children: React.ReactNode }) => {
