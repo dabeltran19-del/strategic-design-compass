@@ -28,7 +28,7 @@ const Contact = () => (
         {/* Left — intro */}
         <motion.div {...fadeInUp} className="col-span-12 md:col-span-4">
           <p className="text-lg text-muted-foreground leading-relaxed">
-            I'm always open to new collaborations, projects, and conversations about strategic design. Feel free to reach out through any of the channels below.
+            I'm always open to new collaborations, projects, and conversations about Strategic Design. Feel free to reach out through any of the channels below.
           </p>
         </motion.div>
 
@@ -37,45 +37,29 @@ const Contact = () => (
 
           <motion.div {...fadeInUp} className="border-t border-border pt-6">
             <p className="caps-label mb-3">Email</p>
-            
-              href="mailto:lauraheshusius6@gmail.com"
-              className="font-serif text-xl font-medium link-underline"
-            >
-              lauraheshusius6@gmail.com
+            <a href="mailto:lauraheshusius6@gmail.com" className="font-serif text-xl font-medium link-underline">
+              {"lauraheshusius6@gmail.com"}
             </a>
           </motion.div>
 
           <motion.div {...fadeInUp} className="border-t border-border pt-6">
             <p className="caps-label mb-3">Mobile</p>
-            
-              href="tel:+393515869476"
-              className="font-serif text-xl font-medium link-underline"
-            >
+            <a href="tel:+393515869476" className="font-serif text-xl font-medium link-underline">
               +39 3515869476
             </a>
           </motion.div>
 
           <motion.div {...fadeInUp} className="border-t border-border pt-6">
             <p className="caps-label mb-3">WhatsApp</p>
-            
-              href="https://wa.me/573213099169"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="font-serif text-xl font-medium link-underline"
-            >
+            <a href="https://wa.me/573213099169" target="_blank" rel="noopener noreferrer" className="font-serif text-xl font-medium link-underline">
               +57 3213099169
             </a>
           </motion.div>
 
           <motion.div {...fadeInUp} className="border-t border-border pt-6">
             <p className="caps-label mb-3">LinkedIn</p>
-            
-              href="https://www.linkedin.com/in/laura-heshusius-g-023566140/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="font-serif text-xl font-medium link-underline"
-            >
-              laura-heshusius-g
+            <a href="https://www.linkedin.com/in/laura-heshusius-g-023566140/" target="_blank" rel="noopener noreferrer" className="font-serif text-xl font-medium link-underline">
+              Laura Heshusius G.
             </a>
           </motion.div>
 
@@ -86,12 +70,7 @@ const Contact = () => (
 
           <motion.div {...fadeInUp} className="border-t border-border pt-6">
             <p className="caps-label mb-3">Studies</p>
-            
-              href="https://www.polidesign.net/en/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="font-serif text-xl font-medium link-underline"
-            >
+            <a href="https://www.polidesign.net/en/" target="_blank" rel="noopener noreferrer" className="font-serif text-xl font-medium link-underline">
               POLI.Design — Politecnico di Milano
             </a>
           </motion.div>
