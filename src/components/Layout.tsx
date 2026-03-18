@@ -8,7 +8,6 @@ const navItems = [
   { label: "Impact", path: "/impact" },
   { label: "LAB ENJ", path: "/lab-enj/context" },
   { label: "Samsung", path: "/samsung" },
-  { label: "Business Design", path: "/business-design" },
   { label: "Contact", path: "/contact" },
 ];
 

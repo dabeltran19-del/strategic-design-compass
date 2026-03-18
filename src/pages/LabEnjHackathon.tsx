@@ -22,16 +22,18 @@ const LabEnjHackathon = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const bgOpacity = Math.max(0, 0.13 - scrollY / 2000);
+  const bgOpacity = Math.max(0, 0.25 - scrollY / 2000);
 
   return (
   <Layout>
     {/* Hero with fading background image */}
     <section className="relative py-[12vh] md:py-[18vh] overflow-hidden">
-      <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat pointer-events-none"
+      <img
+        src="/enj_impact_hero.png"
+        alt=""
+        aria-hidden="true"
+        className="absolute inset-0 w-full h-full object-cover object-center pointer-events-none"
         style={{
-          backgroundImage: "url('/enj_impact_hero.jpg')",
           opacity: bgOpacity,
           maskImage: "linear-gradient(to bottom, black 40%, transparent 100%)",
           WebkitMaskImage: "linear-gradient(to bottom, black 40%, transparent 100%)",
