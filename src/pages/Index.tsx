@@ -63,13 +63,13 @@ const Index = () => {
             <h2 className="font-serif text-3xl font-medium mb-8">I'm Laura Heshusius</h2>
             <div className="space-y-6 text-lg text-muted-foreground leading-relaxed max-w-[65ch]">
               <p>
-                I am a Strategic Designer dedicated to leading innovation within complex ecosystems. I focus on connecting business objectives with human needs to design practical, high-impact strategies.
+                I am a <strong className="font-semibold text-foreground">Strategic Designer</strong> dedicated to leading innovation within complex ecosystems. I focus on <strong className="font-semibold text-foreground">connecting business objectives with human needs</strong> to design practical, high-impact strategies.
               </p>
               <p>
-                By orchestrating collaboration between multidisciplinary teams, I help organizations navigate friction and align diverse stakeholders toward shared goals. My expertise lies in transforming rigid, high-stakes systems into seamless journeys, ensuring that innovation is always viable, compliant, and user-centered.
+                By orchestrating collaboration between multidisciplinary teams, <strong className="font-semibold text-foreground">I help organizations navigate friction and align diverse stakeholders toward shared goals</strong>. My expertise lies in transforming rigid, high-stakes systems into seamless journeys, ensuring that innovation is always viable, compliant, and user-centered.
               </p>
               <p>
-                Currently, I am expanding my skills at POLI.Design — Politecnico di Milano, focusing on building new businesses and strategies through design.
+                Currently, I am expanding my skills at <strong className="font-semibold text-foreground">POLI.Design — Politecnico di Milano</strong>, focusing on building new businesses and strategies through design.
               </p>
             </div>
             <div className="mt-12 text-muted-foreground/30 font-serif italic text-2xl">
