@@ -15,6 +15,7 @@ import SamsungProcess from "./pages/SamsungProcess";
 import BusinessDesign from "./pages/BusinessDesign";
 import Methodology from "./pages/Methodology";
 import Contact from "./pages/Contact";
+import ScrollToTop from "./components/ScrollToTop";
 
 const queryClient = new QueryClient();
 
@@ -24,6 +25,7 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/lab-enj/context" element={<LabEnjContext />} />
