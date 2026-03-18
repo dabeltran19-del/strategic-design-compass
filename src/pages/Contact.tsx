@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Linkedin } from "lucide-react";
+import { Linkedin, Phone, MessageCircle } from "lucide-react";
 import Layout from "@/components/Layout";
 import Section from "@/components/Section";
 
@@ -45,14 +45,16 @@ const Contact = () => (
 
           <motion.div {...fadeInUp} className="border-t border-border pt-6">
             <p className="caps-label mb-3">Mobile</p>
-            <a href="tel:+393515869476" className="font-serif text-xl font-medium link-underline">
+            <a href="tel:+393515869476" className="font-serif text-xl font-medium link-underline inline-flex items-center gap-2">
+              <Phone size={20} strokeWidth={1.5} />
               +39 3515869476
             </a>
           </motion.div>
 
           <motion.div {...fadeInUp} className="border-t border-border pt-6">
             <p className="caps-label mb-3">WhatsApp</p>
-            <a href="https://wa.me/573213099169" target="_blank" rel="noopener noreferrer" className="font-serif text-xl font-medium link-underline">
+            <a href="https://wa.me/573213099169" target="_blank" rel="noopener noreferrer" className="font-serif text-xl font-medium link-underline inline-flex items-center gap-2">
+              <MessageCircle size={20} strokeWidth={1.5} />
               +57 3213099169
             </a>
           </motion.div>
