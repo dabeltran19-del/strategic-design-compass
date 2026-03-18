@@ -31,7 +31,7 @@ const LabEnjHackathon = () => {
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat pointer-events-none"
         style={{
-          backgroundImage: "url('/headhsot.jpg')",
+          backgroundImage: "url('/enj_impact_hero.jpg')",
           opacity: bgOpacity,
           maskImage: "linear-gradient(to bottom, black 40%, transparent 100%)",
           WebkitMaskImage: "linear-gradient(to bottom, black 40%, transparent 100%)",
