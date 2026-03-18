@@ -80,8 +80,12 @@ const LabEnjWorkshops = () => {
               </div>
             </div>
             <div className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-6">
-              <img src="/workshop_photo_01.png" alt="Workshop Photo 01" className="w-full object-cover" />
-              <img src="/workshop_photo_02.png" alt="Workshop Photo 02" className="w-full object-cover" />
+              <div className="h-72 overflow-hidden">
+                <img src="/workshop_photo_01.png" alt="Workshop Photo 01" className="w-full h-full object-cover" />
+              </div>
+              <div className="h-72 overflow-hidden">
+                <img src="/workshop_photo_02.png" alt="Workshop Photo 02" className="w-full h-full object-cover" />
+              </div>
             </div>
             <div className="mt-12 text-lg text-muted-foreground leading-relaxed max-w-[65ch]">
               <div className="flex gap-3">
