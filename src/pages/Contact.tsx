@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Linkedin } from "lucide-react";
+import { Linkedin, Phone, MessageCircle, Mail, MapPin, GraduationCap } from "lucide-react";
 import Layout from "@/components/Layout";
 import Section from "@/components/Section";
 
@@ -38,21 +38,24 @@ const Contact = () => (
 
           <motion.div {...fadeInUp} className="border-t border-border pt-6">
             <p className="caps-label mb-3">Email</p>
-            <a href="mailto:lauraheshusius6@gmail.com" className="font-serif text-xl font-medium link-underline">
+            <a href="mailto:lauraheshusius6@gmail.com" className="font-serif text-xl font-medium link-underline inline-flex items-center gap-2">
+              <Mail size={20} strokeWidth={1.5} />
               {"lauraheshusius6@gmail.com"}
             </a>
           </motion.div>
 
           <motion.div {...fadeInUp} className="border-t border-border pt-6">
             <p className="caps-label mb-3">Mobile</p>
-            <a href="tel:+393515869476" className="font-serif text-xl font-medium link-underline">
+            <a href="tel:+393515869476" className="font-serif text-xl font-medium link-underline inline-flex items-center gap-2">
+              <Phone size={20} strokeWidth={1.5} />
               +39 3515869476
             </a>
           </motion.div>
 
           <motion.div {...fadeInUp} className="border-t border-border pt-6">
             <p className="caps-label mb-3">WhatsApp</p>
-            <a href="https://wa.me/573213099169" target="_blank" rel="noopener noreferrer" className="font-serif text-xl font-medium link-underline">
+            <a href="https://wa.me/573213099169" target="_blank" rel="noopener noreferrer" className="font-serif text-xl font-medium link-underline inline-flex items-center gap-2">
+              <MessageCircle size={20} strokeWidth={1.5} />
               +57 3213099169
             </a>
           </motion.div>
@@ -67,12 +70,16 @@ const Contact = () => (
 
           <motion.div {...fadeInUp} className="border-t border-border pt-6">
             <p className="caps-label mb-3">Currently Based</p>
-            <p className="font-serif text-xl font-medium">Milano, Italy</p>
+            <p className="font-serif text-xl font-medium inline-flex items-center gap-2">
+              <MapPin size={20} strokeWidth={1.5} />
+              Milano, Italy
+            </p>
           </motion.div>
 
           <motion.div {...fadeInUp} className="border-t border-border pt-6">
             <p className="caps-label mb-3">Studies</p>
-            <a href="https://www.polidesign.net/en/" target="_blank" rel="noopener noreferrer" className="font-serif text-xl font-medium link-underline">
+            <a href="https://www.polidesign.net/en/" target="_blank" rel="noopener noreferrer" className="font-serif text-xl font-medium link-underline inline-flex items-center gap-2">
+              <GraduationCap size={20} strokeWidth={1.5} />
               POLI.Design — Politecnico di Milano
             </a>
           </motion.div>
